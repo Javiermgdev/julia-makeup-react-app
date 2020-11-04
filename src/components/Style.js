@@ -1,24 +1,34 @@
 import styled from "styled-components";
 
 
+export const AppStyle = styled.div`
+
+  padding: 0;
+  margin: 0;
+`
+
 export const Navigation = styled.div`
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    
   
   
   body{
-    background-color: blueviolet;
+    
+    padding: 0;
+    margin:0;
   
   }
   
   .navigationBar{
-    width: 1000px;
-    margin: 30px auto;
+    width: 1100px;
+    margin: 0px auto;
     margin-bottom: 0px;
     background-color: pink;
+    
   }
   
   .navigationBar ul{
@@ -40,35 +50,19 @@ export const Navigation = styled.div`
   }
   
   .menu li a:hover{
-    color: red;
+    background: blueviolet;
+    color: white;
     transition: all .6s;
   }
   
-  .submenu{
-    position: absolute;
-    background: violet;
-    width: 150%;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1s;
-  }
+  border: 2px solid blue;
+  margin: 0px;
+  padding: 0px;
   
-  .submenu li a{
-    display: block;
-    padding: 15px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-  }
-  
-  .menu li:hover .submenu{
-    visibility: visible;
-    opacity: 1;
-  }
 `
 export const Form = styled.div`
 *{
-  margin: 0;
+  margin: 0px auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -81,6 +75,7 @@ background-color: blueviolet;
   padding: 30px;
   margin: auto;
   margin-top: 0px;
+  margin-bottom: 0px;
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -121,10 +116,12 @@ margin: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    background-color: blueviolet;
   
   .footer{
-    width: 1000px;
-    margin: 30px auto;
+    width: 1100px;
+    margin: 0px auto;
+    
     background-color: pink;
   }
   
@@ -147,8 +144,45 @@ margin: 0;
   }
   
   .menufooter li a:hover{
-    color: red;
+    background: blueviolet;
+    color: white;
     transition: all .6s;
   }
+
+
+`
+
+export const MainImageStyle = styled.div`
+      
+      border: 2px solid black;
+      margin-top: 0px;
+      img{
+        margin: 0px;
+        padding: 0px;
+        width: 1100px;
+      
+      
+      }
+ `
+ export const ImagesCollectionStyle = styled.div`
+      display: grid;
+      grid-template-columns: repeat(3, 33%);
+      justify-content: center;
+      background-color: #fcf1f1;
+      img{
+        margin: 10px auto;
+      height: 300px;
+      border: 8px solid blueviolet;
+      border-radius: 4px;
+      }
+
+
+
+ `
+
+export const ContentStyle = styled.div`
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);   
 `
 
