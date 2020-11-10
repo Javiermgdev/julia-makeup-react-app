@@ -16,6 +16,9 @@ export default class ImagesCollection extends React.Component {
              <img src={Gallery.img2}/>
              <img src={Gallery.img4}/>
              <img src={Gallery.img5}/>
+             <img src={Gallery.img6}/>
+             <img src={Gallery.img7}/>
+            
             </ImagesCollectionStyle>
         )
     }

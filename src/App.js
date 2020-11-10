@@ -15,7 +15,8 @@ function App() {
 
   return (
     <AppStyle className="App">
-      <NavigationBar></NavigationBar>
+      <NavigationBar>
+      </NavigationBar>
       <MainImage></MainImage>
       {/* <Form></Form>
       <ImagesCollection></ImagesCollection> */}

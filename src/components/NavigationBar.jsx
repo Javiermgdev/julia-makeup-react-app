@@ -7,18 +7,21 @@ export default class NavigationBar extends React.Component {
     
       return (
         <Navigation className="Navigation">
-          
+
             <header>
-              <nav class="navigationBar">
-                <ul class="menu">
-                  <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Cita</a>
-                  </li>
-                  <li><a href="#">Resgistrate</a></li>
-                  <li><a href="#">Admin</a></li>
-                  
+            <nav class="menu">
+                <label class="logo">JuliaSagasMakeUp</label>
+                <ul class="menu_items">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Galeria</a></li>
+                    <li><a href="">Admin</a></li>
                 </ul>
-              </nav>
+                <span class="button_menu">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </nav>
+              
             </header>
           
         </Navigation>
