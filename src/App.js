@@ -38,7 +38,7 @@ function App() {
       
       
       <Footer></Footer>
-      <LogIn></LogIn>
+      <LogIn/> 
       
       
     </AppStyle>
