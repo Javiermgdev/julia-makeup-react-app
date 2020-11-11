@@ -9,7 +9,11 @@ import ImagesCollection from './components/ImagesCollection'
 import ContentComponent from "./components/Content";
 import LogIn from './components/LogIn';
 import { AppStyle } from "./components/Style";
+import Nav from "./components/Nav";
 //import MenuSlider from './components/MenuSlider';//
+import Indexcomponent from "./components/IndexComponent"
+
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
 
@@ -17,13 +21,22 @@ function App() {
 
   return (
     <AppStyle className="App">
-      <NavigationBar>
+      {/* <NavigationBar>
         
-      </NavigationBar>
-      <MainImage></MainImage>
-      {/* <Form></Form>
-      <ImagesCollection></ImagesCollection> */}
-      <ContentComponent/>
+        
+      </NavigationBar> */}
+      <Router>
+      <Nav/>
+      <Switch>
+      <Route path="/" exact component = {Indexcomponent}/> 
+      <Route path = "/contacto" component = {Form}/>
+      <Route path = "/galeria" component = {Indexcomponent}/>
+      <Route path = "/login" component = {Indexcomponent}/>
+        
+      </Switch>
+      </Router>
+      
+      
       <Footer></Footer>
       <LogIn></LogIn>
       
