@@ -7,6 +7,7 @@ import Form from './components/Form';
 import MainImage from './components/MainImage'
 import ImagesCollection from './components/ImagesCollection'
 import ContentComponent from "./components/Content";
+import LogIn from './components/LogIn';
 import { AppStyle } from "./components/Style";
 //import MenuSlider from './components/MenuSlider';//
 
@@ -24,6 +25,7 @@ function App() {
       <ImagesCollection></ImagesCollection> */}
       <ContentComponent/>
       <Footer></Footer>
+      <LogIn></LogIn>
       
       
     </AppStyle>
