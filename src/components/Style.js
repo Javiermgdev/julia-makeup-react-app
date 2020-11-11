@@ -17,14 +17,6 @@ export const Navigation = styled.div`
     box-sizing: border-box;
 }
 
-img {
-    width: 20px;
-}
-
-body {
-    background-color:white;   
-}
-
 .menu {
     background-color: pink;
     height: 70px;
@@ -199,43 +191,45 @@ background-color: blueviolet;
 //FOOTER STYLE//
 
 export const Footer = styled.div`
-margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background-color: blueviolet;
+
   
-  .footer{
-    width: 1100px;
-    margin: 0px auto;
-    
+.footer {
     background-color: pink;
-  }
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    
+    align-items: center;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 0px 10px black;
+    
+}
   
-  .footer ul{
+.footer_items {
+    display: flex;
     list-style: none;
-  }
+    margin-right: 30px;
+    
+}
   
-  .menufooter > li{
-    position: relative;
-    display: inline-block;
-  
-  }
-  
-  .menufooter > li > a{
-    display: block;
-    padding: 15px 20px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+.footer_items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.footer_items li a {
+    padding: 7px 13px;
     text-decoration: none;
-  }
-  
-  .menufooter li a:hover{
-    background: blueviolet;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
     color: white;
-    transition: all .6s;
-  }
+}
+
+.footer_items li:hover {
+    background-color: rgba(184, 0, 240, .2);
+    transition: .8s;
+}
 
 
 `
@@ -254,7 +248,7 @@ export const MainImageStyle = styled.div`
       img{
         margin: auto;
         padding: 0px;
-        width: 600px;
+        width: 750px;
         
         
       }
@@ -267,10 +261,11 @@ export const MainImageStyle = styled.div`
       grid-template-columns: repeat(3, 33%);
       justify-content: center;
       background-color: #fcf1f1;
+      border: 5px solid blueviolet;
       img{
         margin: 10px auto;
         height: 300px;
-        border: 8px solid blueviolet;
+        border: 2px solid blueviolet;
         border-radius: 4px;
       }
 

@@ -9,7 +9,7 @@ export default class FooterStyle extends React.Component {
             
               <header>
                 <nav class="footer">
-                  <ul class="menufooter">
+                  <ul class="footer_items">
                   <li><a href="#">Contacto</a></li>
                     
                   </ul>
