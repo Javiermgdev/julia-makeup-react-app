@@ -5,9 +5,6 @@ import { ImagesCollectionStyle } from "./Style";
 
 export default class ImagesCollection extends React.Component {
 
-
-
-
     render() {
         return(
             <ImagesCollectionStyle>
