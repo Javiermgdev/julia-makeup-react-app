@@ -40,14 +40,14 @@ background-color: rgba(163, 66, 253, 0.836);
 
 .controls {
   width: 100%;
-  background: blueviolet;
+  background: whitesmoke;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 16px;
   border: 1px solid pink;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: white;
+  color: gray;
 }
 
 .form-register .butom {
@@ -106,6 +106,57 @@ export const Footer = styled.div`
 
 
 `
+
+//LOGIN STYLE//
+
+export const LogInStyle = styled.div`
+
+display: grid;
+align-items: center;
+background-color: rgba(163, 66, 253, 0.836);
+
+.LogIn-Admin{
+  width: 400px;
+  background-color: pink;
+  padding: 30px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  box-shadow: 10px 15px 37px #000;
+}
+
+.LogIn-Admin h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.User, .Password{
+  width: 80%;
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: 1px solid pink;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+
+.LogIn-Admin .button{
+  width: 100%;
+  background: blueviolet;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+`
+
 //MAIN IMAGE STYLE//
 
 export const MainImageStyle = styled.div`
