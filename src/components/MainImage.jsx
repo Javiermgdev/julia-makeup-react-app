@@ -1,7 +1,7 @@
 import React from "react";
 import Gallery from './Gallery'
 import { MainImageStyle } from "./Style";
-import makeup1 from './images/makeup1.png'
+
 
 
 export default class MainImage extends React.Component {

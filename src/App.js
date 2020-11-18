@@ -31,14 +31,14 @@ function App() {
       <Route path="/" exact component = {Indexcomponent}/> 
       <Route path = "/contacto" component = {Form}/>
       <Route path = "/galeria" component = {Indexcomponent}/>
-      <Route path = "/login" component = {Indexcomponent}/>
+      <Route path = "/login" component = {LogIn}/>
         
       </Switch>
       </Router>
       
       
       <Footer></Footer>
-      <LogIn/> 
+      
       
       
     </AppStyle>
