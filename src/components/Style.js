@@ -17,7 +17,7 @@ export const Form = styled.div`
 
 display: grid;
 align-items: center;
-background-color: rgba(163, 66, 253, 0.836);
+background-color: #B475D1;
 
 
 .form-register {
@@ -113,7 +113,7 @@ export const LogInStyle = styled.div`
 
 display: grid;
 align-items: center;
-background-color: rgba(163, 66, 253, 0.836);
+background-color: #B475D1;
 
 .LogIn-Admin{
   width: 400px;
