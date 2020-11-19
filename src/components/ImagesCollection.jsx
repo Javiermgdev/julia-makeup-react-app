@@ -1,7 +1,7 @@
 import React from "react";
 import Gallery from './Gallery'
 import { ImagesCollectionStyle } from "./Style";
-import {RViewerTriggger, RViewer} from 'react-viewerjs';
+
 
 
 export default class ImagesCollection extends React.Component {
