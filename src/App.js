@@ -12,6 +12,8 @@ import { AppStyle } from "./components/Style";
 import Nav from "./components/Nav";
 //import MenuSlider from './components/MenuSlider';//
 import Indexcomponent from "./components/IndexComponent"
+import AddImages from "./components/AddImagen"
+import Getimages from "./components/getImagesAdmin";
 
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
@@ -35,6 +37,8 @@ function App() {
         
       </Switch>
       </Router>
+      <AddImages/>
+      <Getimages/>
       
       
       <Footer></Footer>
