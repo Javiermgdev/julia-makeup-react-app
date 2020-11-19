@@ -30,7 +30,7 @@ import Dropzone from "./Dropzone";
 
             {
                 this.state.imagesCloud.map(imagesCloud =>
-                    //the condition will here to show only the enable works 
+                    //the condition will  here to show only the enable works 
 
                     <div>
                         <p>{imagesCloud.idImagesCloud}</p>
