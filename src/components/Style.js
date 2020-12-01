@@ -188,8 +188,8 @@ export const MainImageStyle = styled.div`
       border: 5px solid blueviolet;
       img{
         margin: 10px auto;
-        height: 200px;
-        width: 200px;
+        height: 95%;
+        width: 95%;
         border: 2px solid blueviolet;
         border-radius: 4px;
       }
@@ -204,6 +204,28 @@ export const ContentStyle = styled.div`
 
     display: grid;
     grid-template-columns: repeat(2, 50%); 
+
+`
+
+//IMAGE GALLERY STYLE//
+
+export const ImagesGalleryStyle = styled.div`
+
+display: grid;
+      grid-template-columns: repeat(3, 33%);
+      justify-content: center;
+      background-color: #fcf1f1;
+      border: 5px solid blueviolet;
+      img{
+        margin: 10px auto;
+        height: 95%;
+        width: 95%; 
+        
+        border: 3px solid blueviolet;
+        border-radius: 4px;
+      }
+
+
 
 `
 

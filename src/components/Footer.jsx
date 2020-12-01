@@ -10,7 +10,7 @@ export default class FooterStyle extends React.Component {
               <header>
                 <nav class="footer">
                   <ul class="footer_items">
-                  <li><a href="#">Contacto</a></li>
+                  <li><a href="https://www.instagram.com/sagasjulia/">Contacto</a></li>
                     
                   </ul>
                 </nav>

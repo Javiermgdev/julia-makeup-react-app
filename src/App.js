@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
 import Form from './components/Form';
 import MainImage from './components/MainImage'
@@ -10,14 +9,15 @@ import ContentComponent from "./components/Content";
 import LogIn from './components/LogIn';
 import { AppStyle } from "./components/Style";
 import Nav from "./components/Nav";
-//import MenuSlider from './components/MenuSlider';//
 import Indexcomponent from "./components/IndexComponent"
 
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import ImagesGallery from './components/ImagesGallery';
 
 
 
 function App() {
+  const [selectedImg, setSelectedImg] = useState(null);
 
   return (
     <AppStyle className="App">
@@ -36,6 +36,7 @@ function App() {
       </Switch>
       </Router>
       
+      <ImagesGallery></ImagesGallery>
       
       <Footer></Footer>
       
