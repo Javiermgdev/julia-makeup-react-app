@@ -10,6 +10,8 @@ import LogIn from './components/LogIn';
 import { AppStyle } from "./components/Style";
 import Nav from "./components/Nav";
 import Indexcomponent from "./components/IndexComponent"
+import AddImages from "./components/AddImagen"
+import Getimages from "./components/getImagesAdmin";
 
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import ImagesGallery from './components/ImagesGallery';
@@ -35,6 +37,8 @@ function App() {
         
       </Switch>
       </Router>
+      <AddImages/>
+      <Getimages/>
       
       <ImagesGallery></ImagesGallery>
       
