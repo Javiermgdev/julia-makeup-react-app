@@ -23,11 +23,9 @@ function App() {
 
   return (
     <AppStyle className="App">
-      {/* <NavigationBar>
-        
-        
-      </NavigationBar> */}
+     
       <Router>
+
       <Nav/>
       <Switch>
       <Route path="/" exact component = {Indexcomponent}/> 

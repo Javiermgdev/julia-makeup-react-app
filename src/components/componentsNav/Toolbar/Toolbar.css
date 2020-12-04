@@ -41,25 +41,38 @@ img {
 }
 
 .toolbar_navigation-items li {
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
+  border-radius: 3px;
+    margin: 0 5px;
 }
 
 .toolbar_navigation-items a {
-  color: rgb(19, 18, 18);
+  /* color: rgb(19, 18, 18);
   text-decoration: none;
   padding: 4px 15px;
   background-color: #fcf1f1;
   border-radius: 5px;
   border: 3px solid rgba(137, 43, 226, 0.658);
-  font-size:15px;
+  font-size:15px; */
+
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    
 
 }
 
-.toolbar_navigation-items a:hover,
-.toolbar_navigation-items a:active {
+.toolbar_navigation-items a:hover{
+  background-color: rgba(184, 0, 240, .2);
+    transition: .8s;
+}
+/* .toolbar_navigation-items a:active {
   color: blueviolet;
   font-weight: 900;
-}
+} */
 
 @media (max-width: 768px) {
   .toolbar_navigation-items {
